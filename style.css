@@ -1,55 +1,43 @@
 body {
-    font-family: Arial, sans-serif; /* Arial é fácil de ler. */
-    line-height: 1.6; /* Espaçamento entre as linhas do texto.*/
-    margin: 0; /* Tira um espaço em branco nas bordas. */
-    padding: 20px; 
-    background-color: #f4f4f4; /* Cor de fundo clarinha para o site. */
-    color: #333; /* Cor do texto principal */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/*
-    CABEÇALHO
-    DESAFIO: Organizar as coisas.
-    
-*/
 header {
-    background-color: #0056b3; /* Um azul mais escuro. */
-    color: #fff; /* Texto branco para se destacar no azul. */
+    background-color: #0056b3;
+    color: #fff;
     padding: 20px;
     text-align: center;
-    margin-bottom: 30px; /* Um espaço grande abaixo do cabeçalho. */
-    border-radius: 8px; /* Cantinhos redondos = mais moderno. */
+    margin-bottom: 30px;
+    border-radius: 8px;
 }
 
 header h1 {
-    margin-top: 0; 
-    font-size: 2.5em; /* Tamanho do título principal.*/
+    margin-top: 0;
+    font-size: 2.5em;
 }
 
 header p {
-    font-size: 1.1em; /* Tamanho do parágrafo*/
+    font-size: 1.1em;
 }
 
-/*
-    O CONTEÚDO 
-    DESAFIO: Fazer o texto ser fácil de ler.
-*/
 main {
-    max-width: 800px; /* Limita a largura do conteúdo */
-    margin: 0 auto; /* Centraliza a parte principal do site */
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Uma sombrinha suave para dar um efeito 3D. */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/*
-    COMO VÃO SER AS SEÇÕES
-*/
 section {
     margin-bottom: 40px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #eee; /* Uma linha fininha para dividir as seções. */
+    border-bottom: 1px solid #eee;
 }
 
 section:last-child {
@@ -57,59 +45,45 @@ section:last-child {
 }
 
 section h2 {
-    color: #0056b3; /* Cor azul para os títulos */
+    color: #0056b3;
     font-size: 1.8em;
     margin-bottom: 15px;
 }
 
-/*
-    OS PARÁGRAFOS
-*/
 ul {
-    list-style-type: disc; /* As bolinhas */
-    margin-left: 20px; /* Um espaço à esquerda  */
+    list-style-type: disc;
+    margin-left: 20px;
     padding: 0;
 }
 
 ul li {
-    margin-bottom: 8px; /* Espaço entre cada item da lista */
+    margin-bottom: 8px;
 }
 
-/*
-    COMO VÃO SER OS LINKS
-    DESAFIO: Mostrar que dá para clicar!
-*/
 a {
-    color: #007bff; /* Cor azul para os links */
-    text-decoration: none; /* Tira a linha de baixo do link (depois a gente coloca de volta ao passar o mouse). */
+    color: #007bff;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Coloca a linha de baixo de volta */
-    color: #0056b3; /* Muda a cor do link */
+    text-decoration: underline;
+    color: #0056b3;
 }
 
-/*
-    COMO VÃO SER AS FOTOS
-    DESAFIO: Fotos que se encaixam!
-*/
 img {
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin: 15px 0; 
+    display: block;
+    margin: 15px 0;
     border-radius: 5px;
 }
 
-/*
-    COMO VAI SER O RODAPÉ 
-*/
 footer {
-    text-align: center; /* Texto no meio. */
+    text-align: center;
     padding: 20px;
-    margin-top: 40px; /* Espaço grande acima do rodapé. */
-    background-color: #eee; /* Cor de fundo clara para o rodapé. */
-    color: #555; /* Cor do texto do rodapé. */
-    font-size: 0.9em; /* Letra um pouco menor. */
+    margin-top: 40px;
+    background-color: #eee;
+    color: #555;
+    font-size: 0.9em;
     border-radius: 8px;
 }
